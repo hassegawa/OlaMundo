@@ -13,7 +13,7 @@ RUN apk add nodejs=8.9.3-r1
 RUN dotnet publish -c Release -o out
 
 # Build da imagem
-FROM mcr.microsoft.com/dotnet/core/runtime:2.1-alpine
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.1-alpine
 WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "OlaMundo.dll"]

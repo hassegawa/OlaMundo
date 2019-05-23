@@ -7,6 +7,7 @@ RUN dotnet restore
 
 # Build da aplicacao
 COPY . ./
+RUN apk add nodejs=10.15.3-r0
 RUN dotnet publish -c Release -o out
 
 # Build da imagem

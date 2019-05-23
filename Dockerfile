@@ -7,7 +7,9 @@ RUN dotnet restore
 
 # Build da aplicacao
 COPY . ./
-RUN apk add nodejs=10.15.3-r0
+
+# node https://pkgs.alpinelinux.org/package/edge/main/x86_64/nodejs
+RUN apk add nodejs=8.9.3-r1
 RUN dotnet publish -c Release -o out
 
 # Build da imagem

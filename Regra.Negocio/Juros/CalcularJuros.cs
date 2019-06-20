@@ -2,7 +2,7 @@
 
 namespace Regra.Negocio
 {
-    public class Class1
+    public class CalcularJuros
     {
     }
 }

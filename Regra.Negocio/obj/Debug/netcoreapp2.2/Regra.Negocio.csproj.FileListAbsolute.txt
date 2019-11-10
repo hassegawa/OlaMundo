@@ -1,9 +1,0 @@
-E:\Projetos\OlaMundo\Regra.Negocio\bin\Debug\netcoreapp2.2\Regra.Negocio.deps.json
-E:\Projetos\OlaMundo\Regra.Negocio\bin\Debug\netcoreapp2.2\Regra.Negocio.dll
-E:\Projetos\OlaMundo\Regra.Negocio\bin\Debug\netcoreapp2.2\Regra.Negocio.pdb
-E:\Projetos\OlaMundo\Regra.Negocio\obj\Debug\netcoreapp2.2\Regra.Negocio.csprojAssemblyReference.cache
-E:\Projetos\OlaMundo\Regra.Negocio\obj\Debug\netcoreapp2.2\Regra.Negocio.csproj.CoreCompileInputs.cache
-E:\Projetos\OlaMundo\Regra.Negocio\obj\Debug\netcoreapp2.2\Regra.Negocio.AssemblyInfoInputs.cache
-E:\Projetos\OlaMundo\Regra.Negocio\obj\Debug\netcoreapp2.2\Regra.Negocio.AssemblyInfo.cs
-E:\Projetos\OlaMundo\Regra.Negocio\obj\Debug\netcoreapp2.2\Regra.Negocio.dll
-E:\Projetos\OlaMundo\Regra.Negocio\obj\Debug\netcoreapp2.2\Regra.Negocio.pdb

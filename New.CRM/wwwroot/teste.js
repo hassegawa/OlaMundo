@@ -1,0 +1,11 @@
+const {Builder, By, until} = require('selenium-webdriver');
+new Builder()
+    .forBrowser('firefox')
+    .build()
+    .then(driver => {
+      return driver.get('http://www.google.com/ncr')
+        .then(_ => driver.findElement(By.name('q')).sendKeys('webdriver'))
+        .then(_ => driver.findElement(By.name('btnK')).click())
+        .then(_ => driver.wait(until.titleIs('webdriver - Google Search'), 1000))
+        .then(_ => driver.quit());
+    });

@@ -18,7 +18,7 @@ RUN dotnet build -c Release -o /app
 
 # Build da aplicação
 WORKDIR /src/New.CRM/
-RUN apk add nodejs=8.9.3-r1
+RUN apk add nodejs=10.16.3-r0
 RUN dotnet build -c Release -o /app
 
 FROM build AS publish
